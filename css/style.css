@@ -1,0 +1,156 @@
+:root {
+    --primary-color: #00bfa6;
+    --padding: 
+}
+
+
+/* --------------------------------------------------------Navbar--------------------------------------------------------- */
+.c-navbar {
+    padding: 0 5% 0 7%;
+}
+
+.c-title {
+    color: black;
+}
+
+.dot {
+    color: var(--primary-color);
+}
+
+.c-menu {
+    color: black !important;
+}
+
+#login a {
+    color: var(--primary-color);
+}
+
+.c-menu:hover {
+    color: var(--primary-color) !important;
+}
+
+#login li a .fa-user-circle:hover {
+    opacity: 0.5;
+}
+
+#login .signbtn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#login .signbtn {
+    color: var(--primary-color);
+}
+
+/* --------------------------------------------------Main--------------------------------------------------------------- */
+
+/* landing page */
+.c-section1 {
+    padding: 0 9% 0 5%;
+}
+
+.landing-text h1 {
+    color: var(--primary-color);
+}
+
+.landing-text button {
+    background-color: var(--primary-color);
+}
+
+.landing-text button:hover {
+    opacity: 0.5;
+}
+
+.c-food {
+    cursor: pointer;
+    height: 370px;
+}
+
+.c-food b {
+    color:  var(--primary-color);
+}
+
+.c-food b span {
+    background-color: #dafcf7;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.c-food h6 {
+    font-size: 0.8rem;
+}
+
+.orderbtn {
+    background-color: #00bfa6;
+    width: 9rem;
+    left: 25%;
+}
+
+.c-food:hover .orderbtn {
+    display: block !important;
+}
+
+.c-food:hover {
+    opacity: 0.5;
+}
+
+.c-section2 {
+    background-color: var(--primary-color);
+
+}
+
+.c-p-logo:hover {
+    opacity: 0.5;
+}
+
+.c-btn2 {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.c-btn1 {
+    color: var(--primary-color);
+    background-color: #dafcf7;
+}
+
+.c-btn1:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.c-btn2:hover {
+    opacity: 0.5;
+}
+
+/* ------------------------------------------------------------------Footer------------------------------------------------------------------- */
+.c-f-logo a {
+    color: black;
+}
+
+.c-f-logo a:hover {
+    text-decoration: none;
+}
+
+.c-icon {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.c-f-link {
+    color: black;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+footer p{
+    color: black;
+    opacity: 0.7;
+}
+
+.c-icon:hover, .c-f-link:hover {
+    color: var(--primary-color);
+}
+
+.c-badge:hover {
+    opacity: 0.5;
+}
